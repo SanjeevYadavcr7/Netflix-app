@@ -1,0 +1,556 @@
+	@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+.b11
+{
+	z-index: 4;
+
+}
+
+.b12
+{
+	animation: transitionInii 1.2s;
+	z-index: 3;
+}
+
+.b14
+{
+	animation: transitionIniii 1.2s;
+	z-index: 3;
+}
+
+.b13
+{
+	animation: transitionIni 2s;
+	z-index: 2;
+}
+.b15
+{
+	animation: transitionIniv 2s;
+	z-index: 2;
+}
+.b16
+{
+	animation: transitionInvi 1s;
+	z-index: 1;
+
+}
+.b17
+{
+	animation: transitionInvii 1s;
+	z-index: 1;
+
+}
+@keyframes transitionIni{
+	from{	opacity: 1;		transform: translateX(-125px)}
+	to{	opacity: 1;	transform: translateX(0);}
+}
+@keyframes transitionIniv{
+	from{	opacity: 1;	transform: translateX(125px)}
+	to{	opacity: 1;	transform: translateX(0);}
+}
+
+@keyframes transitionInii{
+	from{	opacity: 1;	transform: translateX(-170px)}
+	to{	opacity: 1;	transform: translateX(0);}
+}
+@keyframes transitionIniii{
+	from{	opacity: 1;	transform: translateX(170px)}
+	to{	opacity: 1;	transform: translateX(0);}
+}
+@keyframes transitionInv{
+	from{	opacity: 1;	transform: translateX(70px)}
+	to{	opacity: 1;	transform: translateX(0);}}
+@keyframes transitionInvi{
+	from{	opacity: 1;	transform: translateX(35px)}
+	to{	opacity: 1;	transform: translateX(0);}
+}
+@keyframes transitionInvii{
+	from{opacity: 1;transform: translateX(-35px)}
+	to{	opacity: 1;	transform: translateX(0);}
+}
+
+
+#tab-1-content, #tab-2-content, #tab-3-content
+{
+	display: none;
+}
+
+.hide
+{
+	display: none;
+}
+
+
+.show
+{
+	display: block !important;
+}
+.movies_head .activ{color: #e50914;}
+
+
+/*#tab-2-content .p_body
+{
+	animation: transitionsix 1s;
+}*/
+#tab-2-content .movie_title:nth-child(5)
+{
+	animation: transitionfive 1s;
+}
+#tab-2-content .movie_title:nth-child(4)
+{
+	animation: transitionfour 1.2s;
+}
+#tab-2-content .movie_title:nth-child(3)
+{
+	animation: transitionthree 1.7s;
+}
+#tab-2-content .movie_title:nth-child(2)
+{
+	animation: transitiontwo 1.9s;
+}
+#tab-2-content .movie_title:nth-child(1)
+{
+	animation: transitionone 1s;
+}
+
+/*
+#tab-3-content .p_body span
+{
+
+}*/
+/*#tab-3-content .p_body
+{
+	animation: transitionsix 2s;
+}*/
+#tab-3-content .movie_title:nth-child(5)
+{
+	animation: transitionfive 1s;
+}
+#tab-3-content .movie_title:nth-child(4)
+{
+	animation: transitionfour 1.2s;
+}
+#tab-3-content .movie_title:nth-child(3)
+{
+	animation: transitionthree 1.7s;
+}
+#tab-3-content .movie_title:nth-child(2)
+{
+	animation: transitiontwo 1.9s;
+}
+#tab-3-content .movie_title:nth-child(1)
+{
+	animation: transitionone 1s;
+}
+
+
+
+#cab-2-content .movie_title:nth-child(5)
+{
+	animation: transitionfive 1s;
+}
+#cab-2-content .movie_title:nth-child(4)
+{
+	animation: transitionfour 1.2s;
+}
+#cab-2-content .movie_title:nth-child(3)
+{
+	animation: transitionthree 1.7s;
+}
+#cab-2-content .movie_title:nth-child(2)
+{
+	animation: transitiontwo 1.9s;
+}
+#cab-2-content .movie_title:nth-child(1)
+{
+	animation: transitionone 1s;
+}
+
+
+
+#cab-3-content .movie_title:nth-child(5)
+{
+	animation: transitionfive 1s;
+	z-index: 5;
+}
+#cab-3-content .movie_title:nth-child(4)
+{
+	animation: transitionfour 1.2s;
+	z-index: 4;
+}
+#cab-3-content .movie_title:nth-child(3)
+{
+	animation: transitionthree 1.7s;
+	z-index: 3;
+}
+#cab-3-content .movie_title:nth-child(2)
+{
+	animation: transitiontwo 1.9s;
+	z-index: 2;
+}
+#cab-3-content .movie_title:nth-child(1)
+{
+	animation: transitionone 1s;
+	z-index: 1;
+}
+
+/*
+#aab-3-content .p_body
+{
+	animation: transitionsix 2s;
+}
+
+
+*/
+#aab-3-content .movie_title:nth-child(5)
+{
+	animation: transitionfive 1s;
+	z-index: 5;
+}
+#aab-3-content .movie_title:nth-child(4)
+{
+	animation: transitionfour 1.2s;
+	z-index: 4;
+}
+#aab-3-content .movie_title:nth-child(3)
+{
+	animation: transitionthree 1.6s;
+	z-index: 3;
+}
+#aab-3-content .movie_title:nth-child(2)
+{
+	animation: transitiontwo 1.9s;
+	z-index: 2;
+}
+#aab-3-content .movie_title:nth-child(1)
+{
+	animation: transitionone 1s;
+	z-index: 1;
+}
+/*#aab-2-content .p_body
+{
+	animation: transitionsix 2s;
+}*/
+#aab-2-content .movie_title:nth-child(5)
+{
+	animation: transitionfive 1s;
+	z-index: 5;
+}
+#aab-2-content .movie_title:nth-child(4)
+{
+	animation: transitionfour 1.2s;
+	z-index: 4;
+}
+#aab-2-content .movie_title:nth-child(3)
+{
+	animation: transitionthree 1.6s;
+	z-index: 3;
+}
+#aab-2-content .movie_title:nth-child(2)
+{
+	animation: transitiontwo 1.9s;
+	z-index: 2;
+}
+#aab-2-content .movie_title:nth-child(1)
+{
+	animation: transitionone 1s;
+	z-index: 1;
+}
+
+/*marvel magic ----------------------------------------------*/
+/*
+#mab-3-content .p_body
+{
+	animation: transitionsix 2s;
+}*/
+#mab-3-content .movie_title:nth-child(5)
+{
+	animation: transitionfive 1s;
+	z-index: 5;
+}
+#mab-3-content .movie_title:nth-child(4)
+{
+	animation: transitionfour 1.2s;
+	z-index: 4;
+}
+#mab-3-content .movie_title:nth-child(3)
+{
+	animation: transitionthree 1.6s;
+	z-index: 3;
+}
+#mab-3-content .movie_title:nth-child(2)
+{
+	animation: transitiontwo 1.9s;
+	z-index: 2;
+}
+#mab-3-content .movie_title:nth-child(1)
+{
+	animation: transitionone 1s;
+	z-index: 1;
+}
+/*#mab-2-content .p_body
+{
+	animation: transitionsix 2s;
+}*/
+#mab-2-content .movie_title:nth-child(5)
+{
+	animation: transitionfive 1s;
+	z-index: 5;
+}
+#mab-2-content .movie_title:nth-child(4)
+{
+	animation: transitionfour 1.2s;
+	z-index: 4;
+}
+#mab-2-content .movie_title:nth-child(3)
+{
+	animation: transitionthree 1.6s;
+	z-index: 3;
+}
+#mab-2-content .movie_title:nth-child(2)
+{
+	animation: transitiontwo 1.9s;
+	z-index: 2;
+}
+#mab-2-content .movie_title:nth-child(1)
+{
+	animation: transitionone 1s;
+	z-index: 1;
+}
+
+
+
+
+
+
+/*-------------------------------------------------------------------*/
+
+
+@keyframes transitionsix
+{
+	from
+	{
+		opacity: 1;
+		transform: translateX(-160px)
+	}
+
+	to
+	{
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+
+@keyframes transitionfive
+{
+	from
+	{
+		opacity: 1;
+		transform: translateX(-160px)
+	}
+
+	to
+	{
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+
+@keyframes transitionfour
+{
+	from
+	{
+		opacity: 1;
+		transform: translateX(-240px)
+	}
+
+	to
+	{
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+
+@keyframes transitionthree
+{
+	from
+	{
+		opacity: 1;
+		transform: translateX(-320px)
+	}
+
+	to
+	{
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+
+@keyframes transitiontwo
+{
+	from
+	{
+		opacity: 1;
+		transform: translateX(-370px)
+	}
+
+	to
+	{
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes transitionone
+{
+	from
+	{
+		opacity: 1;
+		transform: translateX(-450px)
+	}
+
+	to
+	{
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+#cab-1-content, #cab-2-content, #cab-3-content
+{
+	display: none;
+}
+.cshow
+{
+	display: block !important;
+}
+.series_head .activ{color: #e50914;}
+
+
+#aab-1-content, #aab-2-content, #aab-3-content
+{
+	display: none;
+}
+.ashow
+{
+	display: block !important;
+}
+.anime_head .activ{color: #e50914;}
+
+
+
+
+#mab-1-content, #mab-2-content, #mab-3-content
+{
+	display: none;
+}
+.mshow
+{
+	display: block !important;
+}
+.marvel_head .activ{color: #e50914;}
+
+.title-border
+{
+	border:1px solid white;
+}
+/*.title-border img:hover
+{
+	cursor:pointer;
+	box-shadow: inset 14em 10em gold;
+}*/
+
+
+
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+#tab-1-content .s1:nth-child(4)
+{
+	animation: movietransitionfive 1.7s;
+	z-index: 1;
+}
+#tab-1-content .s1:nth-child(3)
+{
+	animation: movietransitionfour 1s;
+	z-index: 2;
+}
+#tab-1-content .s1:nth-child(2)
+{
+	animation: movietransitionthree 0s;
+	z-index: 3;
+}
+#tab-1-content .s1:nth-child(6)
+{
+	animation: movietransitiontwo 2.3s;
+	z-index: 4;
+}
+#tab-1-content .s1:nth-child(5)
+{
+	animation: movietransitionone 2s;
+	z-index: 5;
+}
+
+
+
+
+#tab-1-content .s2:nth-child(10)
+{
+	animation: movietransitionfive 0s;
+	/*z-index: 1;*/
+}
+#tab-1-content .s2:nth-child(9)
+{
+	animation: movietransitionfour 0s;
+	/*z-index: 2;*/
+}
+#tab-1-content .s2:nth-child(8)
+{
+	animation: movietransitionthree 0s;
+	/*z-index: 3;*/
+}
+#tab-1-content .s2:nth-child(12)
+{
+	animation: movietransitiontwo 0s;
+	/*z-index: 4;*/
+}
+#tab-1-content .s2:nth-child(11)
+{
+	animation: movietransitionone 0s;
+	/*z-index: 5;*/
+}
+
+
+
+@keyframes movietransitionone
+{
+	from{opacity:1;transform: translateX(0px);}
+	to{opacity:1;transform: translateX(0px);}
+}
+
+@keyframes movietransitiontwo
+{
+	from{opacity:1;transform: translateX(0px);}
+	to{opacity:1;transform: translateX(0px);}
+}
+@keyframes movietransitionthree
+{
+	from{opacity:1;transform: translateX(0px);}
+	to{opacity:1;transform: translateX(0px);}
+}
+
+@keyframes movietransitionfour
+{
+	from{opacity:1;transform: translateX(0px);}
+	to{opacity:1;transform: translateX(0px);}
+}
+@keyframes movietransitionfive
+{
+	from{opacity:1;transform: translateX(0px);}
+	to{opacity:1;transform: translateX(0px);}
+}
+/*-----------------------------------------------*/
+

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SignIn</title>
+
+	<!-- adding fontawersome library -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/signin.css">
+	<link rel="stylesheet" type="text/css" href="../css/style-min.css">
+	
+
+</head>
+<body>
+
+<div class="sign-box">  
+	<div class="showcase-top">
+			<a href="index.html"><img src="../img/logo.png" alt="Netflix" class="img">
+				</a>
+	</div>
+	<div class="sign-form">
+	<h1>Sign IN</h1>
+	<hr class="hr"/>
+		<form action="#" name="myform" method="post">
+			<input type="text" name="username" placeholder="Email or Phone number" required/>
+			<br/>
+			<input type="password" name="password" placeholder="Password" required />
+			<br/>
+			<span class="rem">
+			<input type="checkbox" name="rem_me" value="Yes"> Remember me</span>
+			<br/>
+			<!-- <input type="submit" value="SignIN" class="btn btn-lg"/> -->
+			<a href="page_const.html" class="btn btn-lg" onclick="return validate(); return ValidateEmail();">
+				Sign In
+				<i class="fas fa-chevron-right btn-icon"></i>
+			</a>
+			<br/>
+			<p style="margin-left:36%;color: white;//font-weight: bold;font-size: 1.3em;margin-top:6%;margin-bottom:7%;">Or</p>
+			
+			<a href="#" class="img1">
+				<img src="../img/g+.png" alt="google_img">
+			</a>
+
+			<a href="#">
+			<img src="../img/apple.png" alt="apple_img">
+			</a>
+
+			<a href="#">
+			<img src="../img/facebook2.png" alt="facebook_img">
+			</a>
+
+			<a href="#">
+			<img src="../img/twitter2.png" alt="twitter_img">
+			</a>
+
+			<a href="#">
+			<img src="../img/linkedin2.png" alt="linkedn_img">
+			</a>
+		
+		</form>		
+	</div>
+	
+</div>
+	
+	<script src="../js/main.js"></script>
+</body>
+</html>

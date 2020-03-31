@@ -1,0 +1,326 @@
+
+
+/*media query for smaller devices*/
+
+@media only screen and (max-width: 960px)
+{
+	.showcase
+	{
+		height: 86vh;
+	}
+	.hide-sm
+	{
+		display: none;
+	}
+	.showcase-top img
+	{
+		top:30%;
+		left:5%;
+		transform:translate(0);
+	}
+	.showcase-content h1
+	{
+		font-size:3.7rem;
+		line-height: 1;
+	}
+	.showcase-content p
+	{
+		font-size: 1rem;
+	}
+	.btn-lg
+	{
+		font-size: 1rem;
+		padding: 1.2rem 1.9rem;
+	}
+	.text-xl
+	{
+		font-size: 1.2rem;
+	}
+	.text-lg
+	{
+		font-size: 1rem;
+		letter-spacing: 0.1em;
+	}
+	.text-md
+	{
+		font-size: 1rem;
+	}
+	.tabs-btn-lg
+	{
+		font-size: 0.8rem;
+		letter-spacing: 0.05em;
+
+	}
+	table tbody td
+	{
+		font-size: 0.8rem;
+		line-height: 1rem;
+	}
+
+	.footer-cols
+	{
+		grid-template-columns: repeat(2,1fr);
+	}
+	.footer p
+	{
+		margin-left: 2.4rem;
+	}
+}	
+
+@media only screen and (max-width: 700px)
+{
+
+	.showcase::after
+	{
+		/*background: rgba(0,0,0,0.6);*/
+		box-shadow: inset 70px 70px 250px #000,  inset 70px -70px 250px #000;
+	}
+
+
+	#tab-1-content .tab-1-content-inner
+	{
+		grid-template-columns: 1fr;
+		text-align: center;
+	}
+#tab-1-content .tab-1-content-inner video
+{
+	width:350px;height: 198px;margin-left: 0%;border-bottom:1.5px solid red;border-right:1.5px solid red;box-shadow: none;
+}
+	#tab-2-content .tab-2-content-top
+	{
+		display: block;
+		text-align: center;
+	}
+	#tab-2-content .tab-2-content-bottom
+	{
+		grid-template-columns: 1fr;
+	}
+	
+}
+
+
+@media only screen and (max-width: 600px)
+{
+	body
+	{
+		margin:0;
+		padding:0;
+	}
+	.showcase-top img
+	{
+		top:30%;
+		left:5%;
+		width: 6em;
+		height: 1.5em;
+		transform:translate(0);
+	}
+	.showcase-top a
+	{
+		position: absolute;
+		top:50%;
+		right:-10%;
+		transform: translate(-50%, -50%);
+		width: 5em;
+		height:1.7em;
+		border-radius: 2px;
+		box-shadow:0 1px 0 rgba(0,0,0,0.5);
+		text-transform: uppercase;
+		letter-spacing: 0.16em;
+		font-size: 0.8em;
+	}
+	.btn
+	{
+		background: red;
+	}
+
+	.showcase-content h1
+	{
+		font-size: 3.6em;
+	}
+	.showcase-content p
+	{
+		letter-spacing: 0.4em;
+		font-size: 0.78em;
+		/*box-shadow: 1px 1px 4px 0px lightgrey;*/
+		/*border:1px solid white;*/
+		color: #000;
+		background: white;
+		padding-left: 1em;
+		padding-right:1em;
+		margin-bottom:20%;
+		box-shadow:0 1px 0 rgba(0,0,0,0.5);
+
+		/*font-weight: bold;*/
+	}
+	.showcase-content a
+	{
+		margin-left:4%;
+		letter-spacing: 0.07em;
+		font-size: 0.9em;
+	}
+	.sign-box
+	{
+		margin:0;
+		padding:0;
+		border:0.1px solid black;
+	}
+
+
+	.sign-box::after
+	{
+		background: linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0,0.5));
+	}
+	.sign-box p
+	{
+		display: none;
+	}
+	.sign-box .btn-lg
+	{
+		margin-bottom: 5em;
+	}
+	.sign-form img
+	{
+		padding-left:1.5em; 
+	}
+	.sign-form .img1
+	{
+		margin-left:-7%;
+	}
+	
+
+
+
+
+
+	.sign-form
+	{
+	
+			position: relative;
+			width: 90%;
+			height: 75%;
+			margin-top:30%;
+			margin-left:5%;
+			background: rgba(0,0,0,0.8);
+			border-radius: 3px;
+			z-index:2;
+			border-bottom:2px solid red;
+			display:block;
+	}
+	
+	.footer
+	{
+		max-width: 100%;
+		margin: 1rem auto;
+		overflow:auto;
+		border:1px solid transparent;
+		background:#111111;
+		padding-top: 5%;
+		padding-left: -2%;
+		border:1px solid #292929;
+		margin-bottom: 0px;
+	}
+	.footer hr
+	{
+		display: none;
+	}
+	.footer ul:nth-child(even) 
+	{
+		display: none;
+	}
+
+	.footer .hr
+	{
+		margin-left: 3em;
+	}
+
+	/*styling for page under construction*/
+
+		
+		.sign-form h1
+		{	
+			padding-top: 2em;
+			padding-left: 4rem;
+			color: white;
+			letter-spacing: 0.03em;
+		}
+		.sign-form form
+		{
+			padding-top: 4rem;
+			padding-left: 4rem;
+		}
+
+		.hr
+		{
+			margin-left: 4rem;
+			margin-top: -0.5rem;
+			border: 2px solid red;
+			box-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+			width:35%;
+		}
+		.sign-form .p 
+		{
+			display: inline-block;
+			margin-top: 30%;
+			margin-left: 10%;
+			color: white;
+			text-align: center;
+			line-height: 2em;
+			letter-spacing: 0.05em;
+		}
+		.sign-form a i
+		{
+			padding:0.07em 0.7em;
+		}
+		.sign-form a
+		{
+			box-shadow:0 1px 0 rgba(0,0,0,0.5);			
+		}
+		.icon
+		{
+			margin-left: 3em;
+		}
+		.btn
+		{
+			/*background: transparent;*/
+		}
+	.sign-box .showcase-top a img
+	{
+		padding-left:7em; 
+	}
+	#tab-3-content .table
+	{
+		width: 126%;
+		margin-left:-3em;
+	}
+
+	
+	.table tbody tr td
+	{
+		color:#999;
+		padding:0.5rem 1rem;
+		text-align: center;
+	}
+
+	.table tbody tr td:first-child
+	{
+		padding-left: 2em;
+		font-size: 0.7em;
+	}
+	.table thead th
+	{
+		letter-spacing: 0.1em;
+	}
+
+
+}
+
+
+	
+
+@media only screen and (max-width: 380px)
+{
+	.showcase-content p
+	{
+		letter-spacing: 0.3em;
+		font-size: 0.7em;
+}

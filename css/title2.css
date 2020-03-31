@@ -1,0 +1,272 @@
+	/*.showcase{ background: white; }*/
+	* {
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+		body{
+			left:0;
+			top:0;
+			margin:0px;
+			padding:0px;
+			font-family: 'Poppins', sans-serif;
+			-webkit-font-smoothing:antialiased;
+			background-color: #292929;
+		}
+		.nav{	
+				width: 100%;
+				height:97vh;
+				border:1px solid transparent;
+			}
+		.nav-top
+		{
+			width:100%;
+			height:90px;
+			border-bottom:0.1px solid grey;
+			box-shadow: 1px 1px 6px 4px rgba(0,0,0,0.7);
+			/*background: white;*/
+		}	
+		.nav-top img{ width:160px;height:40px;margin:1.7% 3%;	}
+		.nav-top .btn1
+		{
+			text-decoration:none;float:right;margin-right: 3.5%;
+			margin-top:2.3%;font-size: 1.2em;color:white;
+			font-weight: bold;
+		}
+		.nav-top a{letter-spacing:0.07em;}
+		.nav-top a:hover{text-decoration: underline;}
+
+		.footer
+		{
+			font-family:'Poppins',sans-serif;width:100%;height:200px;
+			border:0.1px solid transparent;padding-left: 7%;
+			padding-top: 2%;
+			background-color:#292929;
+		}
+		.footer h4{font-weight:normal;margin-left: 2.5%;color: #fff;letter-spacing: 0.09em;}
+		.footer table{width:60%;margin-top: 2%;}
+		.footer table tr{height: 40px;text-align: left;}
+		.footer table tr td
+		{
+			color: grey;border-bottom: none;
+			padding-left: 5%;font-size: 0.8em;
+		}
+			.footer table tr td:first-child{color: grey;}
+			table a{text-decoration: none;color: grey;}
+		
+		.nav .box
+		{	width: 90%;height: 700px;
+			border:1px solid transparent;
+			margin-left: 5%;
+			position: relative;
+			/*overflow: hidden;*/
+		}
+		
+		.box .b1
+		{
+			width: 200px;height: 260px;
+			border:1px solid grey;background-color: grey;
+			float:right;margin-top: 6%;
+			box-shadow: 1px 4px 4.5px 1px rgba(0,0,0,0.7);
+			}
+			.box .b11{margin-right: 30%;}
+			.box img{width: 300px;height:100%;}
+
+			.b13{position:relative;left:0;z-index: 1;
+				margin-right: -65px;}
+			.b17{position:relative;left:0;z-index:0;margin-left:-10%;
+				margin-right: -5%;}	
+			.b14{position:relative;z-index: 2;margin-right:-10%;}
+			.b15{position:relative;z-index:1;margin-right:-8%;margin-left:5%;}
+			.b16{position:relative;z-index:0;margin-left:0;margin-right:-3%;}
+			.b12{position:relative;margin-right:22%;z-index: 2;}
+			.b11{position:absolute;margin-left: 40%;z-index: 3;}
+			
+			.box .b11{height:76%;width:340px;margin-top: 6%;}
+			.box .b11 img{width: 340px;}
+			.box .b12{height:68%;width:280px;margin-top: 8%;}
+			.box .b12 img{width: 280px;}
+			.box .b13{height:60%;width:260px;margin-top: 10.2%;}
+			.box .b13 img{width: 260px;}
+			.box .b14{height:68%;width:280px;margin-top: 8%;}
+			.box .b14 img{width: 280px;}
+			.box .b15{height:60%;width:240px;margin-top: 10.2%;}
+			.box .b15 img{width: 240px;}
+			.box .b16{height:53%;width:200px;margin-top: 12%;}
+			.box .b16 img{width: 200px;}
+			.box .b17{height:53%;width:200px;margin-top: 12%;}
+			.box .b17 img{width: 200px;}
+
+
+			.movie_list
+			{
+				width: 100%;height: 500px;
+				border:1px solid transparent;background-color: white;
+			}
+			.movies{width: 100%;height:100%;border:1px solid transparent;}
+			.movies_head
+			{
+				width: 100%;height:20%;
+				border-bottom:0.1px solid lightgrey;
+				border-top:0.1px solid transparent;
+				padding: 2% 4%;
+			}
+			.movies_head p{font-family:'Roboto',sans-serif;font-size:2em;color: #292929;//text-transform: uppercase;}
+			.p_span{border:1.5px solid #e50914;margin-left:1%;margin-right: 1.6%;}
+			.movies_head .tab-item 
+			{
+				display: inline;
+				font-size:1em;color:grey;
+				margin-left:0%;padding: none;
+				cursor: pointer;
+				margin-right: 2%;
+			}
+			
+			#p1{display: inline;}
+			.movies .movie_head .tab-item{cursor: pointer;}
+			/*.movies .movie_head .tab-item p{margin-top:15%;}*/
+			.movies_head .tab-item:hover
+			{
+				color:#e50914;
+			}
+			.movies_body
+			{
+				width: 100%;height:80%;
+				border: 1px solid transparent;
+				margin-left:-4%;margin-top:2%;
+			}
+			.movie_title
+			{
+				width: 14%;height: 80%;border:1px solid transparent;
+				float: right;margin-right:2%;
+				box-shadow: 2px 2px 4.5px 0px rgba(0,0,0,0.8);
+			}
+			.movie_title
+			{
+				margin-left: 1%;
+			}
+			.movie_title:first-child
+			{
+				margin-right: 10%;
+			}
+			.p_body
+			{
+				float:right;border-left:2px solid #e50914;
+				padding:1% 1%;margin-top: 8%;margin-left:2%;
+				letter-spacing:0.05em;font-weight: bold;color:#333; }
+			.p_body a{text-decoration: none;color:#333;}
+			.movie_title img{width:100%;height:100%;}
+
+			
+
+			.series_list
+			{
+				width: 100%;height: 550px;
+				border:1px solid transparent;
+				background-color: white;padding-top: 3%;
+			}
+			
+			
+			.series_head
+			{
+				width: 100%;height:20%;
+				border-bottom:0.1px solid lightgrey;
+				border-top:0.1px solid transparent;
+			}
+
+	
+			.series_head p{font-family:'Roboto',sans-serif;font-size:2em;color: #292929;//text-transform: uppercase;}
+			.p_span
+			{
+				border:1.5px solid #e50914;
+				margin-left:1%;margin-right: 1.6%;
+			}
+			.series_head .cab-item 
+			{
+				display: inline;
+				font-size:1em;color:grey;
+				margin-left:0%;padding: none;
+				cursor: pointer;
+				margin-right: 1%;
+			}
+			.series_head{padding-top: 2%;padding-left:3.8%; }
+
+			.anime_list
+			{
+				width: 100%;height: 550px;
+				border:1px solid transparent;
+				background-color: white;padding-top: 3%;
+			}
+			.anime_head
+			{
+				width: 100%;height:20%;
+				border-bottom:0.1px solid lightgrey;
+				border-top:0.1px solid transparent;
+			}
+			.anime_head p
+			{
+				font-family:'Roboto',sans-serif;font-size:2em;
+				color: #292929;
+			}
+			.anime_head .aab-item
+			{
+				display: inline;
+				font-size:1em;color:grey;
+				margin-left:0%;padding: none;
+				cursor: pointer;
+				margin-right: 1%;
+			}
+			.anime_head{padding-top: 2%;padding-left:3.8%; }
+
+
+			/*-------------------------------------*/
+
+
+			.marvel_list
+			{
+				width: 100%;height: 550px;
+				border:1px solid transparent;
+				background-color: white;padding-top: 3%;
+			}
+			.marvel_head
+			{
+				width: 100%;height:20%;
+				border-bottom:0.1px solid lightgrey;
+				border-top:0.1px solid transparent;
+			}
+			.marvel_head p
+			{
+				font-family:'Roboto',sans-serif;font-size:2em;
+				color: #292929;
+			}
+			.marvel_head .mab-item
+			{
+				display: inline;
+				font-size:1em;color:grey;
+				margin-left:0%;padding: none;
+				cursor: pointer;
+				margin-right: 1%;
+			}
+			.marvel_head{padding-top: 2%;padding-left:3.8%; }
+
+			#tab-1-content span a:hover{cursor:pointer;}
+
+			.movie_title img:hover
+			{
+				cursor: pointer;
+				animation: translateX(-30px) 2s;
+			}
+
+			.movie_title img::after
+			{
+			  	content:'';
+				position: absolute;
+				top:0;
+				left:0;
+				width: 100%;
+				height: 100%;
+				z-index: 1;
+				background: rgba(0,0,0,0.8);
+				box-shadow: inset 120px 100px 250px #000,inset -120px -100px 250px #000;
+			}
+

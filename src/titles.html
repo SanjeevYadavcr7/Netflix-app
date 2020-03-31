@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+	<!-- adding fontawersome library -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+<!-- 
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	
+	<link rel="stylesheet" type="text/css" href="../css/style-min.css"> -->
+	<link href="https://fonts.googleapis.com/css?family=Hind|Lato|Noto+Sans|Noto+Sans+KR|Roboto&display=swap" rel="stylesheet">
+
+
+	<title>Available Tiles</title>
+	
+	<link rel="stylesheet" type="text/css" href="../css/title2.css">
+	<link rel="stylesheet" type="text/css" href="../css/title.css">
+	<link rel="stylesheet" type="text/css" href="../css/title3.css">
+
+
+
+
+</head>
+<body>
+<header class="nav">
+	<div class="nav-top">
+			<a href="index.html" class="img"><img src="../img/logo.png" alt="Netflix"></a>
+			<a href="signin.html" class="btn1">Sign In</a>
+	</div>
+	<div class="box">
+	
+		<div class="b1 b16">
+			<img src="../img/movie/family.jpeg">
+		</div>
+		<div class="b1 b15">
+			<img src="../img/movie/terminator-dark-fate-british-movie-poster.jpg">
+		</div>
+
+		<div class="b1 b14">
+			<img src="../img/movie/kabir.jpg">
+		</div>
+
+		<div class="b1 b12">
+			<img src="../img/movie/the_witcher_geralt_poster_1261238.jpg">
+		</div>
+		<div class="b1 b11">
+			<img src="../img/movie/KdQmbQq.jpg">
+		</div>
+		<div class="b1 b13">
+			<img src="../img/movie/13.jpg">
+		</div>
+		<div class="b1 b17">
+			<img src="../img/movie/bmb.jpg">
+		</div>
+
+	</div>
+
+	<div class="movie_list">
+		<div class="movies">
+			<div class="movies_head">
+				<p id="p1">Movies<span class="p_span"></span>
+					<p id="tab-1" class="tab-item activ">
+					Now Showing</p>
+					<p id="tab-2" class="tab-item">Coming soon</p>
+					<p id="tab-3" class="tab-item">Exclusive</p>
+				</p>
+			</div>
+			<div id="tab-1-content" class="movies_body tab-content-item show">
+				
+				<span class="p_body s1"><a id="more" onclick="second_view();">more...</a></span>
+				<div class="movie_title title-border s1">
+					<img src="../img/movie/terminator-dark-fate-british-movie-poster.jpg">
+				</div>
+				<div class="movie_title title-border s1">
+					<img src="../img/movie/joker.jpg">
+				</div>
+				<div class="movie_title title-border s1">
+					<img src="../img/movie/bmb.jpg">
+				</div>
+				<div class="movie_title title-border s1">
+					<img src="../img/movie/captain_marvel.jpeg">
+				</div>
+				<div class="movie_title title-border s1">
+					<img src="../img/movie/kabir.jpg">
+				</div>
+
+				<!-- second side -->
+				<span class="p_body s2 hide"><a id="more2" onclick="first_view();">more...</a></span>
+				<div class="movie_title title-border s2 hide">
+					<img src="../img/movie/Second_side/tamasha.jpg">
+				</div>
+				<div class="movie_title title-border s2 hide">
+					<img src="../img/movie/Second_side/john.jpg">
+				</div>
+				<div class="movie_title title-border s2 hide">
+					<img src="../img/movie/Second_side/ra-one.jpg">
+				</div>
+				<div class="movie_title title-border s2 hide">
+					<img src="../img/movie/Second_side/jumanji.jpg">
+				</div>
+				<div class="movie_title title-border s2 hide">
+					<img src="../img/movie/Second_side/jb.jpeg">
+				</div>
+				<!-- second side ends -->
+
+
+			</div>
+		
+
+		<div id="tab-2-content" class=" tab-content-item movies_body">
+
+				<span class="p_body"><a href="#">more...</a></span>
+				<div class="movie_title title-border">
+					<img src="../img/movie/Dabbang3-min.jpg">
+				</div>
+				<div class="movie_title title-border">
+					<img src="../img/movie/First_Man.jpg">
+				</div>
+				<div class="movie_title title-border">
+					<img src="../img/movie/Chadwick.jpg">
+				</div>
+				<div class="movie_title title-border">
+					<img src="../img/movie/akki-min.jpg">
+				</div>
+				<div class="movie_title title-border">
+					<img src="../img/movie/replicas.jpg">
+				</div>
+
+			</div>
+		<!-- movie exclusive section -->
+		<div id="tab-3-content" class="tab-content-item movies_body">
+				
+				<span class="p_body"><a href="#">more...</a></span>
+				<div class="movie_title title-border">
+					<img src="../img/movie/swades.jpg">
+				</div>
+				<div class="movie_title title-border">
+					<img src="../img/movie/rockstar.jpg">
+				</div>
+				<div class="movie_title title-border">
+					<img src="../img/movie/interstella.jpg">
+				</div>
+				<div class="movie_title title-border">
+					<img src="../img/movie/16887.jpg">
+				</div>
+				<div class="movie_title title-border">
+					<img src="../img/movie/3idiots.jpg">
+				</div>
+			</div>
+		<!-- movie exclusive section ends -->
+
+		</div>
+	</div>
+<!-- movie section ends -->
+
+
+
+
+	<div class="series_list series">
+		<div class="movies">
+			<div class="series_head">
+				<p id="p1">TV Series<span class="p_span"></span>
+					<p id="cab-1" class="cab-item activ">
+					Now Showing</p>
+					<p id="cab-2" class="cab-item">Coming soon</p>
+					<p id="cab-3" class="cab-item">Exclusive</p>
+				</p>
+			</div>
+		<div id="cab-1-content" class="movies_body cab-content-item cshow">
+				
+				<span class="p_body"><a href="#">more...</a></span>
+				<div class="movie_title title-border">
+					<img src="../img/movie/bbt.jpg">
+				</div>
+				<div class="movie_title title-border">
+					<img src="../img/movie/poster-780.jpg">
+				</div>
+				<div class="movie_title title-border">
+					<img src="../img/movie/bb.jpg">
+				</div>
+				<div class="movie_title title-border">
+					<img src="../img/movie/flash.jpg">
+				</div>
+				<div class="movie_title title-border">
+					<img src="../img/movie/mHgt9fJ.jpg">
+				</div>
+
+			</div>
+
+		<div id="cab-2-content" class=" cab-content-item movies_body">
+				
+				<span class="p_body"><a href="#">more...</a></span>
+				<div class="movie_title title-border">
+					<img src="../img/movie/mp.jpg">
+				</div>
+				<div class="movie_title title-border">
+					<img src="../img/movie/bandb.jpg">
+				</div>
+				<div class="movie_title title-border">
+					<img src="../img/movie/nancy.jpg">
+				</div>
+				<div class="movie_title title-border">
+					<img src="../img/movie/the_witcher_geralt_poster_1261238.jpg">
+				</div>
+				<div class="movie_title title-border">
+					<img src="../img/movie/heroes-reborn.jpg">
+				</div>
+
+			</div>
+		<!-- movie exclusive section -->
+		<div id="cab-3-content" class="cab-content-item movies_body">
+				
+				<span class="p_body"><a href="#">more...</a></span>
+				<div class="movie_title title-border">
+					<img src="../img/movie/13.jpg">
+				</div>
+				<div class="movie_title title-border">
+					<img src="../img/movie/klaus.jpg">
+				</div>
+				<div class="movie_title title-border">
+					<img src="../img/movie/GOT2.jpg">
+				</div>
+				<div class="movie_title title-border">
+					<img src="../img/movie/mirzapur4.jpg">
+				</div>
+				<div class="movie_title title-border">
+					<img src="../img/movie/sherlocked.jpg">
+				</div>
+			</div>
+
+
+		</div>
+	</div>
+
+	<div class="anime_list anime">
+		<div class="movies">
+			<div class="anime_head">
+					<p id="p1">Sports <span class="p_span"></span>
+					<p id="aab-1" class="aab-item activ">
+					Now Showing</p>
+					<p id="aab-2" class="aab-item">Coming soon</p>
+					<p id="aab-3" class="aab-item">Exclusive</p>
+				</p>
+			</div>
+			
+		<div id="aab-1-content" class="movies_body aab-content-item ashow">
+				
+				<span class="p_body"><a href="#">more...</a></span>
+				<div class="movie_title title-border">
+					<img src="../img/movie/cricket-world-cup-live-on-hotstar-england-wales-ad-times-of-india-delhi-30-05-2019.png">
+				</div>
+				<div class="movie_title title-border">
+					<img src="../img/movie/ccbf6d09790c849271c846999845c86c.jpg">
+				</div>
+					<div class="movie_title title-border">
+					<img src="../img/movie/liverpool.jpg">
+				</div>
+				<div class="movie_title title-border">
+					<img src="../img/movie/jacobssulecki_boxing_poster_design_small.jpg">
+				</div>
+				<div class="movie_title title-border">
+					<img src="../img/movie/DixonBaxi_PREMIER_LEAGUE_023.jpg">
+				</div>
+		</div>
+
+		<div id="aab-2-content" class="aab-content-item movies_body">
+				
+				<span class="p_body"><a href="#">more...</a></span>
+				<div class="movie_title title-border">
+					<img src="../img/movie/ipl.png">
+				</div>
+				<div class="movie_title title-border">
+					<img src="../img/movie/X1-44-Returns-MMA-Poster-700.jpg">
+				</div>
+					<div class="movie_title title-border">
+					<img src="../img/movie/portugal_vs_spain.jpg">
+				</div>
+				<div class="movie_title title-border">
+					<img src="../img/movie/virat.jpg">
+				</div>
+				<div class="movie_title title-border">
+					<img src="../img/movie/spurs.jpg">
+				</div>
+		</div>
+
+		<!-- movie exclusive section -->
+		<div id="aab-3-content" class="aab-content-item movies_body">
+				
+				<span class="p_body"><a href="#">more...</a></span>
+				<div class="movie_title title-border">
+					<img src="../img/movie/semi_final_matchday_1_by_devb5179_dccrok2-pre.jpg">
+				</div>
+				<div class="movie_title title-border">
+					<img src="../img/movie/worldcup.jpg">
+				</div>
+				<div class="movie_title title-border">
+					<img src="../img/movie/manchester-derby1.jpg">
+				</div>
+				<div class="movie_title title-border">
+					<img src="../img/movie/DZtNvOiVwAACRM1.jpg">
+				</div>
+				<div class="movie_title title-border">
+					<img src="../img/movie/conor.jpg">
+				</div>
+			</div>
+
+
+		</div>
+	</div>
+
+
+
+	<!-- -------------------------------------------- -->
+
+
+	<div class="marvel_list marvel">
+		<div class="movies">
+			<div class="marvel_head">
+					<p id="p1">Marvel <span class="mm">Magic</span> <span class="p_span"></span>
+					<p id="mab-1" class="mab-item activ">
+					Now Showing</p>
+					<p id="mab-2" class="mab-item">Near future</p>
+					<p id="mab-3" class="mab-item">Classics</p>
+				</p>
+			</div>
+			
+		<div id="mab-1-content" class="movies_body mab-content-item mshow">
+				
+				<span class="p_body"><a href="#">more...</a></span>
+				<div class="movie_title title-border">
+					<img src="../img/movie/Marvel/infinity.jpg">
+				</div>
+				<div class="movie_title title-border">
+					<img src="../img/movie/Marvel/black_panther.jpeg">
+				</div>
+					<div class="movie_title title-border">
+					<img src="../img/movie/Marvel/antman.jpg">
+				</div>
+				<div class="movie_title title-border">
+					<img src="../img/movie/Marvel/Captain.jpg">
+				</div>
+				<div class="movie_title title-border">
+					<img src="../img/movie/Marvel/far_from_home.jpg">
+				</div>
+		</div>
+
+		<div id="mab-2-content" class="mab-content-item movies_body">
+				
+				<span class="p_body"><a href="#">more...</a></span>
+				<div class="movie_title title-border">
+					<img src="../img/movie/Marvel/black_widow.jpg">
+				</div>
+				<div class="movie_title title-border">
+					<img src="../img/movie/Marvel/multiverse.jpg">
+				</div>
+					<div class="movie_title title-border">
+					<img src="../img/movie/Marvel/gog2.jpg">
+				</div>
+				<div class="movie_title title-border">
+					<img src="../img/movie/Marvel/love_thunder.jpg">
+				</div>
+				<div class="movie_title title-border">
+					<img src="../img/movie/Marvel/bp2.jpg">
+				</div>
+		</div>
+
+		<!-- movie exclusive section -->
+		<div id="mab-3-content" class="mab-content-item movies_body">
+				
+				<span class="p_body"><a href="#">more...</a></span>
+				<div class="movie_title title-border">
+					<img src="../img/movie/Marvel/Civil_War.jpg">
+				</div>
+				<div class="movie_title title-border">
+					<img src="../img/movie/Marvel/Thor.jpg">
+				</div>
+				<div class="movie_title title-border">
+					<img src="../img/movie/Marvel/Iron_Man_3_imax.jpg">
+				</div>
+				<div class="movie_title title-border">
+					<img src="../img/movie/Marvel/endgame.jpg">
+				</div>
+				<div class="movie_title title-border">
+					<img src="../img/movie/Marvel/Ironman1.jpg">
+				</div>
+			</div>
+
+
+		</div>
+	</div>
+
+
+
+	<!----------------------------------------------- -->
+
+
+	<footer class="footer">
+			<h4>Questions? Contact us.</h5>
+			<table>
+				<tr>
+					<td><a href="#">FAQ</a></td>
+					<td><a href="#">Help Centre</a></td>
+					<td><a href="#">Terms of Use</a></td>
+					<td><a href="#">Privacy</a></td>
+				</tr>
+
+				<tr>
+					<td><a href="#">Cookie Prefrences</a></td>
+					<td><a href="#">Corporate Information</a></td>
+					<td><a href="index.html">Home</a></td>
+
+				</tr>
+
+			</table>
+		</footer>
+</header>
+<script src="../js/titles.js"></script>
+<!-- <script src="../js/titles2.js"></script> -->
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+.nav-top
+{
+	box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.2);
+}
+
+.box{
+	animation: transitionIn 0.7s;
+}
+.box2{
+	animation: transitionIn 0.7s;
+}
+.text-lg 
+{
+	letter-spacing: 0.08em;
+	font-size:1em;
+}
+.tab-1-content-inner a
+{
+	letter-spacing: 0.08em;
+	font-size:0.8em;	
+}
+
+.tab-2-content-top a
+{
+	letter-spacing: 0.08em;
+	font-size:0.8em;		
+}
+#tab-3-content a
+{
+	letter-spacing: 0.08em;
+	font-size:0.8em;		
+}
+
+@keyframes transitionIn{
+	from{
+		opacity: 0;
+		transform: translateX(100px);
+	}
+
+	to{
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
